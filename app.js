@@ -59,10 +59,9 @@ let isAdultMessage = (isAdult >= 18) ? alert('You have reached the age of majori
 
 // Practical task 6
 
-firstTriangleSide = Number(prompt('Enter the lengt for the first side'));
-secondTriangleSide = Number(prompt('Enter the lengt for the second side'));
-thirdTriangleSide = Number(prompt('Enter the lengt for the last side'));
-
+let firstTriangleSide = Number(prompt('Enter the length for the first side'));
+let secondTriangleSide = Number(prompt('Enter the length for the second side'));
+let thirdTriangleSide = Number(prompt('Enter the length for the last side'));
 let p = (firstTriangleSide + secondTriangleSide + thirdTriangleSide) / 2;
 let areaOfTriangle = Math.sqrt(p * (p - firstTriangleSide) * (p - secondTriangleSide) * (p - thirdTriangleSide));
 let areaOfRectangularTriangle = (thirdTriangleSide > firstTriangleSide && thirdTriangleSide > secondTriangleSide) ? (firstTriangleSide * secondTriangleSide) / 2 :
