@@ -81,11 +81,11 @@ let timeMessage = (time >= 23 || time < 5) ? alert(" Good night " ):
     (time >= 11 && time < 17) ? alert (" Good day " ): alert(" Good evening ");
     
 if(time >= 23 || time < 5) {
-    alert(" Good night " )
+        alert(" Good night " );
     } else if (time >= 5 && time < 11){
-        alert(" Good morning " )
+        alert(" Good morning " );
     } else if (time >= 11 && time < 17){
-        alert (" Good day " )
+        alert (" Good day " );
     } else{
-        (" Good evening ")
+        alert(" Good evening ");
     };
