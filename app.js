@@ -24,7 +24,7 @@ console.log( typeof res4); // "number"
 // Practical task 2
 let number = prompt('Please, enter a number');
 
-if(number > 0 && number % 2 == 0) console.log(`That's a correct number`); // a) even & positive
+if(number > 0) console.log(`That's a correct number`); // a) positive
 if(number % 7 == 0) console.log(`That's a correct number`); // b) multiple of 7 
 
 // Practical task 3
