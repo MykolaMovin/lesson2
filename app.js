@@ -88,3 +88,17 @@ if(time >= 23 || time < 5) {
     } else{
         alert(" Good evening ");
     };
+
+switch(true){
+    case (time >= 23 || time < 5):
+        alert(" Good night " );
+        break;
+    case (time >= 5 && time < 11):
+        alert(" Good morning " );
+        break;
+    case (time >= 11 && time < 17):
+        alert (" Good day " );
+        break;
+    default:
+        alert(" Good evening ");
+}
